@@ -1,4 +1,4 @@
-# 画画数据包 | PaintData
+# 画画数据包 | PaintDatapack
 由[晴路卡](https://space.bilibili.com/33229178)制作的数据包。  
 A datapack made by [Loy](https://twitter.com/LOY60650244).
 
