@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "paint:canvas/1_2"
+        }
+      }
+    },
+    "rewards": {
+      "function": "paint:item/canvas/craft/1_2"
+    }
+  }

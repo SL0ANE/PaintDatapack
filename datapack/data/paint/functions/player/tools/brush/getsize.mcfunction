@@ -1,0 +1,2 @@
+execute if data entity @s SelectedItem.tag.paintToolSize store result score #this player.tool.size run data get entity @s SelectedItem.tag.paintToolSize 1
+execute if data entity @s Inventory[{Slot:-106b}].tag.paintToolSize store result score #this player.tool.size run data get entity @s Inventory[{Slot:-106b}].tag.paintToolSize 1

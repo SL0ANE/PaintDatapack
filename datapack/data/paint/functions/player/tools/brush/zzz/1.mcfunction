@@ -1,0 +1,2 @@
+execute unless score #this player.current.grid.board.uid = #this player.previous.grid.board.uid run function paint:player/tools/brush/zzz/2
+execute if score #this player.current.grid.board.uid = #this player.previous.grid.board.uid run function paint:player/tools/brush/zzz/3

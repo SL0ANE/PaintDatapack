@@ -1,0 +1,31 @@
+{
+        "providers": [
+                {
+                        "type": "ttf",
+                        "file": "custom:pixel.ttf",
+                        "shift": [
+                                -0.5,
+                                0.0
+                        ],
+                        "size": 10,
+                        "oversample": 16.0,
+                        "skip": ""
+                },
+                {
+                        "type": "bitmap",
+                        "file": "custom:font/pixel.png",
+                        "ascent": 10,
+                        "height": 10,
+                        "chars": [
+                                "a"
+                        ]
+                },
+                {
+                        "type": "space",
+                        "advances": {
+                                "b": -10,
+                                "c": -1
+                        }
+                }
+        ]
+}

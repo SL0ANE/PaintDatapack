@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_horse_armor",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomDye:1b,display:{color:16711680,Name:'{\"translate\":\"item.custom_dye.name\",\"color\":\"white\",\"italic\": false}'},Unbreakable:1b,CustomModelData:20000,HideFlags:4}"
+              }
+            ]
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:copy_nbt",
+            "source": {
+              "type": "minecraft:storage",
+              "source": "paint:main"
+            },
+            "ops": [
+              {
+                "source": "InputColor",
+                "target": "display.color",
+                "op": "replace"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

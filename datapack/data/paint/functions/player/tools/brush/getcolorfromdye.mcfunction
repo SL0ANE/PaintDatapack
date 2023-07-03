@@ -1,0 +1,16 @@
+execute if predicate paint:dye/white run scoreboard players set #this entity.grid.color 16777215
+execute if predicate paint:dye/light_gray run scoreboard players set #this entity.grid.color 14079702
+execute if predicate paint:dye/gray run scoreboard players set #this entity.grid.color 9803157
+execute if predicate paint:dye/black run scoreboard players set #this entity.grid.color 0
+execute if predicate paint:dye/brown run scoreboard players set #this entity.grid.color 9919538
+execute if predicate paint:dye/red run scoreboard players set #this entity.grid.color 13583166
+execute if predicate paint:dye/orange run scoreboard players set #this entity.grid.color 14190889
+execute if predicate paint:dye/yellow run scoreboard players set #this entity.grid.color 15000617
+execute if predicate paint:dye/lime run scoreboard players set #this entity.grid.color 8507676
+execute if predicate paint:dye/green run scoreboard players set #this entity.grid.color 6456365
+execute if predicate paint:dye/cyan run scoreboard players set #this entity.grid.color 3902638
+execute if predicate paint:dye/light_blue run scoreboard players set #this entity.grid.color 9287665
+execute if predicate paint:dye/blue run scoreboard players set #this entity.grid.color 5865695
+execute if predicate paint:dye/purple run scoreboard players set #this entity.grid.color 11428821
+execute if predicate paint:dye/magenta run scoreboard players set #this entity.grid.color 14186962
+execute if predicate paint:dye/pink run scoreboard players set #this entity.grid.color 16036563

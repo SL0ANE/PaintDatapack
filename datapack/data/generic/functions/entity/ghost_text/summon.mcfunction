@@ -1,0 +1,1 @@
+execute unless entity 00000000-0000-0000-0000-0dc900000000 run summon text_display 0.0 0.0 0.0 {transformation:[0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,0.0f,1.0f],Tags:["ghost.text","loy.obj"],Rotation:[0.0f,0.0f],UUID:[I;0,0,3529,0]}

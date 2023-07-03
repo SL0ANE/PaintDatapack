@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{PreventStack:0,PaintCanvas:1b,BoardData:{Length:16,Height:16,Source:[]},display:{Name:'{\"translate\":\"item.canvas.name\",\"color\":\"white\",\"italic\": false}'},CustomModelData:10000,AttributeModifiers:[{}]}"
+              }
+            ]
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:copy_nbt",
+            "source": {
+              "type": "minecraft:storage",
+              "source": "paint:main"
+            },
+            "ops": [
+              {
+                "source": "BoardData",
+                "target": "BoardData",
+                "op": "replace"
+              }
+            ]
+          },
+          {
+            "function": "minecraft:copy_nbt",
+            "source": {
+              "type": "minecraft:storage",
+              "source": "paint:main"
+            },
+            "ops": [
+              {
+                "source": "CanvasLore",
+                "target": "display.Lore",
+                "op": "replace"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

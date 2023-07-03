@@ -1,0 +1,12 @@
+{
+  "item.paint_brush.name" : "Paint Brush",
+  "item.paint_brush.lore.0" : "Small",
+  "item.paint_brush.lore.1" : "Middle",
+  "item.paint_brush.lore.2" : "Large",
+
+  "item.easel.name" : "Easel",
+
+  "item.canvas.name" : "Canvas",
+
+  "item.custom_dye.name" : "Custom Dye"
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{EntityTag:{Invisible:1b,Marker:true,NoGravity:true,DisabledSlots:4144959,Tags:[\"loy.obj\",\"entity.easel.summon\"]},display:{Name:'{\"translate\":\"item.easel.name\",\"color\":\"white\",\"italic\": false}'},CustomModelData:10000}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

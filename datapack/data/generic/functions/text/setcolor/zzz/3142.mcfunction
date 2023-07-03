@@ -1,0 +1,2 @@
+execute if score #text.temp.0 loy.value matches 3136..3139 run function generic:text/setcolor/zzz/3143
+execute if score #text.temp.0 loy.value matches 3140..3143 run function generic:text/setcolor/zzz/3146

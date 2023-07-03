@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "paint:paint_brush/s"
+        }
+      }
+    },
+    "rewards": {
+      "function": "paint:item/paint_brush/s/craft"
+    }
+  }

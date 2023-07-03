@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{paintToolId:0,paintToolSize:25,display:{Name:'{\"translate\":\"item.paint_brush.name\",\"color\":\"white\",\"italic\": false}',Lore:['[{\"translate\":\"item.paint_brush.lore.2\",\"color\":\"blue\",\"italic\": false}]']},Unbreakable:1b,CustomModelData:10002,HideFlags:4}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

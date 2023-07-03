@@ -1,0 +1,2 @@
+execute on target if predicate paint:canvas/mainhand run function paint:entity/easel/method/zzz/2
+execute on target unless predicate paint:canvas/mainhand if predicate paint:canvas/offhand run function paint:entity/easel/method/zzz/3

@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/leather_horse_armor"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 10000},"model": "custom:item/grid"},
+		{"predicate": {"custom_model_data": 20000},"model": "custom:item/custom_dye"}
+	]
+}

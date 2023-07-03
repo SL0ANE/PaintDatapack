@@ -1,0 +1,12 @@
+{
+  "item.paint_brush.name" : "画笔",
+  "item.paint_brush.lore.0" : "小",
+  "item.paint_brush.lore.1" : "中",
+  "item.paint_brush.lore.2" : "大",
+
+  "item.easel.name" : "画架",
+
+  "item.canvas.name" : "画布",
+
+  "item.custom_dye.name" : "自定义染料"
+}

@@ -1,0 +1,3 @@
+scoreboard players set #temp.0 loy.value 0
+execute if score #this entity.grid.index.x >= #0 loy.value if score #this entity.grid.index.x < #this entity.board.length if score #this entity.grid.index.y >= #0 loy.value if score #this entity.grid.index.y < #this entity.board.height run scoreboard players set #temp.0 loy.value 1
+execute if score @s player.current.grid.distance < #math.temp.10 loy.value run scoreboard players set #temp.0 loy.value 0

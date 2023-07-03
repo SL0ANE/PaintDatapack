@@ -1,0 +1,1 @@
+execute store result storage paint:main BoardData.Source[-1].count int 1 run scoreboard players add #temp.1 loy.value 1

@@ -1,0 +1,1 @@
+data modify storage paint:main BoardData.Text set from entity @s text

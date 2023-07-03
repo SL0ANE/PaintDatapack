@@ -1,0 +1,2 @@
+execute if score #text.temp.0 loy.value matches 2138 run data modify block 29999984 0 0 front_text.messages[0] set value '{"nbt":"TextInput0","storage": "generic:main","interpret": true,"color":"#8F5FAF"}'
+execute if score #text.temp.0 loy.value matches 2139 run data modify block 29999984 0 0 front_text.messages[0] set value '{"nbt":"TextInput0","storage": "generic:main","interpret": true,"color":"#8F5FBF"}'

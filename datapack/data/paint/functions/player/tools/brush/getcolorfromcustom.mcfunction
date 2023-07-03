@@ -1,0 +1,2 @@
+execute if data entity @s SelectedItem.tag.display.color store result score #this entity.grid.color run data get entity @s SelectedItem.tag.display.color 1
+execute if data entity @s Inventory[{Slot:-106b}].tag.display.color store result score #this entity.grid.color run data get entity @s Inventory[{Slot:-106b}].tag.display.color 1

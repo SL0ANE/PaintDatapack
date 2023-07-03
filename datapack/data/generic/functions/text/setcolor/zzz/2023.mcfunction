@@ -1,0 +1,2 @@
+execute if score #text.temp.0 loy.value matches 2020..2021 run function generic:text/setcolor/zzz/2024
+execute if score #text.temp.0 loy.value matches 2022..2023 run function generic:text/setcolor/zzz/2025
