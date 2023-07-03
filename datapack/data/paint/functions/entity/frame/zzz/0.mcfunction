@@ -1,0 +1,1 @@
+scoreboard players set #temp.0 loy.value 1

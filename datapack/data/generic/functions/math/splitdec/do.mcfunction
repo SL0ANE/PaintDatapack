@@ -10,4 +10,4 @@ scoreboard players set #math.input.1 loy.value 31
 function generic:math/bincon/do
 
 function generic:entity/ghost/summon
-execute as 00000000-0000-0000-0000-0dc800000000 run function generic:math/splitdec/zzz/1
+execute as 00000000-0000-0000-0000-0dc800000000 in overworld run function generic:math/splitdec/zzz/1

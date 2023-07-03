@@ -36,7 +36,7 @@ scoreboard players set #day.gamesecond loy.value 72
 scoreboard players set #day.midnight loy.value 18000
 scoreboard players set #text.space.max loy.value 12
 
-forceload add 0 0
+forceload add -1 -1 1 1
 forceload add 29999984 15 29999999 0
 
 setblock 29999984 0 0 oak_sign replace

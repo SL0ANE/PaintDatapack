@@ -1,6 +1,6 @@
 function generic:entity/ghost/summon
 
-execute at @s anchored eyes positioned ^ ^ ^ as 00000000-0000-0000-0000-0dc800000000 run function paint:entity/board/method/drawing/zzz/0
+execute at @s in overworld positioned as @s anchored eyes positioned ^ ^ ^ as 00000000-0000-0000-0000-0dc800000000 run function paint:entity/board/method/drawing/zzz/0
 
 scoreboard players operation #math.input.0 loy.value = #temp.0 loy.value
 scoreboard players operation #math.input.1 loy.value = #temp.1 loy.value

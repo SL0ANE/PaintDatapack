@@ -44,8 +44,8 @@ scoreboard players operation #temp.2 loy.value += #temp.3 loy.value
 scoreboard players operation #temp.2 loy.value *= #_1 loy.value
 
 # teleport @s ~ ~ ~ ~ ~
-# tellraw @a [{"text":"画板坐标: "}, {"score":{"name":"#this.pos.x.int","objective":"loy.value"}},".",{"score":{"name":"#this.pos.x.dec","objective":"loy.value"}}," ",{"score":{"name":"#this.pos.y.int","objective":"loy.value"}},".",{"score":{"name":"#this.pos.y.dec","objective":"loy.value"}}," ",{"score":{"name":"#this.pos.z.int","objective":"loy.value"}},".",{"score":{"name":"#this.pos.z.dec","objective":"loy.value"}}]
-# tellraw @a [{"text":"眼睛坐标: "}, {"nbt":"Pos","entity": "@s"}]
-# tellraw @a [{"text":"玩家相对于画板原点的坐标: "}, {"score":{"name":"#temp.0","objective":"loy.value"}}," ",{"score":{"name":"#temp.1","objective":"loy.value"}}," ",{"score":{"name":"#temp.2","objective":"loy.value"}}]
+#tellraw @a [{"text":"画板坐标: "}, {"score":{"name":"#this.pos.x.int","objective":"loy.value"}},".",{"score":{"name":"#this.pos.x.dec","objective":"loy.value"}}," ",{"score":{"name":"#this.pos.y.int","objective":"loy.value"}},".",{"score":{"name":"#this.pos.y.dec","objective":"loy.value"}}," ",{"score":{"name":"#this.pos.z.int","objective":"loy.value"}},".",{"score":{"name":"#this.pos.z.dec","objective":"loy.value"}}]
+#tellraw @a [{"text":"眼睛坐标: "}, {"nbt":"Pos","entity": "@s"}]
+#tellraw @a [{"text":"玩家相对于画板原点的坐标: "}, {"score":{"name":"#temp.0","objective":"loy.value"}}," ",{"score":{"name":"#temp.1","objective":"loy.value"}}," ",{"score":{"name":"#temp.2","objective":"loy.value"}}]
 
 teleport @s 0.0 0.0 0.0
