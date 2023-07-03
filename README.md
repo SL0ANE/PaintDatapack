@@ -8,10 +8,14 @@ A datapack made by [Loy](https://twitter.com/LOY60650244).
 ![](https://github.com/SL0ANE/PaintDatapack/blob/main/recipes/2_brush.gif)<br />
 
 ## 说明 | Note
+你可以通过拿着染料来选择颜色, 主手和副手都可以。
+
 绘制好的画布可以放在展示框上显示。  
 
 目前并没有适用于生存模式的自定义染料的获得方法，如果你希望获得任意一种颜色的染料，可以通过输入下面的指令来获得。
 <br /><br />
+Hold a dye as the color on your brush, main hand and off hand both works.  
+
 Painted canvas can be displayed on item frames.    
 
 Currently there's no way to obtain custom dyes for survive mode. If you wish to obtain dye with any color, you can use the commands below.
