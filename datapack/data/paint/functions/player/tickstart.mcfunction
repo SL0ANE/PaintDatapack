@@ -8,4 +8,4 @@ execute if score @s player.current.grid.board.uid matches 0.. run function paint
 execute if score @s player.previous.grid.timer matches 0 run scoreboard players set @s player.previous.grid.board.uid -1
 
 
-execute at @s as @e[type=item_frame,distance=..8] run function paint:entity/frame/tick
+execute at @s as @e[type=#paint:item_frame,distance=..8] run function paint:entity/frame/tick
